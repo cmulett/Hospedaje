@@ -1,0 +1,466 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: green;
+}
+
+button:hover{
+    background-color: rgb(33, 165, 62);
+}
+
+.interes {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:green; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logg{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+
+header .interes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(23, 144, 49);
+}
+
+
+#lugares{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#lugares .place{
+    padding: 90px 12px;
+}
+
+#lugares h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#lugares p{
+    display: none;
+}
+
+#lugares .lug{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.lug:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/campin.jpeg");
+
+}
+
+.lug:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/centrocomercial.jpeg");
+}
+
+.lug:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/movistar.jpeg");
+
+}
+
+
+#lugar{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#lugar .plac{
+    padding: 0px 12px;
+}
+
+#lugar h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#lugar p{
+    display: none;
+}
+
+#lugar .lu{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.lu:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/clinica.jpeg");
+
+}
+
+.lu:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/nacional.jpeg");
+}
+
+.lu:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/militar.jpeg");
+
+}
+
+
+#luga{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#luga .pla{
+    padding: 0px 12px;
+}
+
+#luga h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#luga p{
+    display: none;
+}
+
+#luga .lul{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.lul:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/tequendama.jpeg");
+
+}
+
+.lul:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/simon.jpeg");
+}
+
+.lul:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("lugaMedia/embajadaEEUU_Colombia.jpeg");
+
+}
+
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .interes{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .interes{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+
+    #lugares .places{
+        display: flex;
+        justify-content: center;
+    }
+
+    #lugares p{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #lugares h2{
+        font-size: 4em;
+    }
+
+    #lugares h3{
+        margin-top: 0;
+    }
+
+    #lugares .lug{
+        padding: 100px 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .lug:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/campin.jpeg");
+
+    }
+
+    .lug:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/centrocomercial.jpeg");
+    }
+
+    .lug:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/movistar.jpeg");
+
+    }
+
+
+    #lugar .plac{
+        display: flex;
+        justify-content: center;
+    }
+
+    #lugar p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #lugar h2{
+        font-size: 4em;
+    }
+
+    #lugar h3{
+        margin-top: 0;
+    }
+
+    #lugar .lu{
+        padding: 100px 100px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .lu:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/clinica.jpeg");
+
+    }
+
+    .lu:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/nacional.jpeg");
+    }
+
+    .lu:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/militar.jpeg");
+
+    }
+
+
+    #luga .pla{
+        display: flex;
+        justify-content: center;
+    }
+
+    #luga p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #luga h2{
+        font-size: 4em;
+    }
+
+    #luga h3{
+        margin-top: 0;
+    }
+
+    #luga .lul{
+        padding: 100px 100px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .lul:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/tequendama.jpeg");
+
+    }
+
+    .lul:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/simon.jpeg");
+    }
+
+    .lul:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("lugaMedia/embajadaEEUU_Colombia.jpeg");
+
+    }
+
+
+    footer .interes{
+        justify-content: flex-end;
+    }
+} 

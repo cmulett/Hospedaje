@@ -1,0 +1,164 @@
+*{
+   
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgb(23, 23, 23);
+
+}
+
+h1{ font-size: 3.5em;}
+p{ font-size: 1.25em;}
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;;
+}
+
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: green;
+}
+
+button:hover{
+    background-color: rgb(33, 165, 62);
+}
+
+.obtencion{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:green; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logos{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+
+header .obtencion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(23, 144, 49);
+}
+
+
+
+form{
+    margin: auto;
+    width: 500%;
+    max-width: 500px;
+    background: #F3F3F3;
+    padding: 100px 100px;
+    border: 1px solid rgba(0,0,0,0.3);
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    
+}
+
+input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+
+}
+
+input[type="submit"]{
+    background: linear-gradient(#00FF6A, #25A846);
+    font-weight: bold;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+    opacity: 1;
+}
+
+input[type="submit"]:active{
+    transform: scale(0.95);
+}
+
+
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .obtencion{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    form{
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+   
+
+}
+

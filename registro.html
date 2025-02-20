@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Datos</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <div class="obtencion">
+            <p class="logos">Hospedaje Galerias!</p>
+            <nav>
+                <a href="index.html">Página de Inicio</a>
+            </nav>
+        </div>
+    </header>
+
+        
+    <form method="post" action="upload.php" enctype="multipart/form-data">
+        <h2>Registro de Documentos</h2>
+        <input type="text" name="nombre" placeholder="Nombre de Archivo">
+        <input type="file" name="archivo">
+        <input type="submit" name="subir" placeholder="Enviar">
+    </form>
+</body>
+</html>

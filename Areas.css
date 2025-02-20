@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: green;
+}
+
+button:hover{
+    background-color: rgb(33, 165, 62);
+}
+
+.cabezas{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:green; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .loggin{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+
+header .cabezas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(23, 144, 49);
+}
+
+
+#areas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#areas .comunes{
+    padding: 100px 12px;
+}
+
+#areas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#areas p{
+    display: none;
+}
+
+#areas .sala{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.sala:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("AreMedia/cocina1.jpeg");
+
+}
+
+.sala:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("AreMedia/cocina1.1.jpeg");
+}
+
+.sala:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("AreMedia/pasillo1.jpeg");
+
+}
+
+
+#area{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#area .comune{
+    padding: 20px 12px;
+}
+
+#area h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#area p{
+    display: none;
+}
+
+#area .comu{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.comu:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("AreMedia/cocina2.jpeg");
+
+}
+
+.comu:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("AreMedia/pasillo2.jpeg");
+}
+
+.comu:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("AreMedia/bano2.jpeg");
+
+}
+
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .cabezas{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .cabezas{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #areas .commun{
+        display: flex;
+        justify-content: center;
+    }
+
+    #areas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #areas h2{
+        font-size: 4em;
+    }
+
+    #areas h3{
+        margin-top: 0;
+    }
+
+    #areas .sala{
+        padding: 250px 200px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .sala:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("AreMedia/cocina1.jpeg");
+
+    }
+
+    .sala:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("AreMedia/cocina1.1.jpeg");
+    }
+
+    .sala:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("AreMedia/pasillo1.jpeg");
+
+    }
+
+
+    #area .comune{
+        display: flex;
+        justify-content: center;
+    }
+
+    #area p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #area h2{
+        font-size: 4em;
+    }
+
+    #area h3{
+        margin-top: 0;
+    }
+
+    #area .comu{
+        padding: 250px 200px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .comu:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("AreMedia/cocina2.jpeg");
+
+    }
+
+    .comu:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("AreMedia/pasillo2.jpeg");
+    }
+
+    .comu:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("AreMedia/bano2.jpeg");
+
+    }
+
+    footer .cabezas{
+        justify-content: flex-end;
+    }
+
+}
+
+
+
